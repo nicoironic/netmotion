@@ -1,0 +1,158 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title></title>
+	<meta name="description" content="">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script>window.html5 || document.write('<script src="js/libs/html5.js"><\/script>')</script>
+	<![endif]-->
+</head>
+<body>
+
+
+<header id="header-top">
+	<div class="wrap clearfix">
+
+		<a href="/" id="top-logo"><img src="img/img_logo.png" alt="Chronostar"></a>
+
+		<div id="btn-fb">
+			<a href="#"><img src="img/btn-fb.png" alt="Connectez-vous avec Facebook Connect"></a>
+		</div>
+
+		<div id="login-form-top">
+			<form action="" method="">
+				<p>
+					<input type="text" name="logintop_id" id="logintop-id" value="Login / Email" class="autoEmpty">
+					<input type="password" name="logintop_pass" id="logintop-pass" value="Mot de passe" class="autoEmpty">
+					<input type="submit" name="logintop_subm" id="logintop-subm" value="OK">
+				</p>
+			</form>
+			<p>
+				<a href="#">Mot de passe oublié ?</a>
+				<label for="logintop-stayco"><input type="checkbox" name="logintop_stayco" id="logintop-stayco">Rester connecté</label>
+			</p>
+		</div><!-- end #login-form-top -->
+
+		<nav id="nav-top">
+			<ul>
+				<li><a href="accueil.html">Accueil</a></li>
+				<li><a href="how-it-works.html">Comment ça marche ?</a></li>
+				<li><a href="invite-friends.html">Pourquoi inviter vos amis sur le réseau ?</a></li>
+				<li class="current"><a href="recommend-us.html">Pourquoi recommander notre site ?</a></li>
+				<li class="highlight"><a href="register.html">S’inscrire</a></li>
+			</ul>
+		</nav>
+
+	</div><!-- end .wrap -->
+</header>
+
+
+<div id="main-bg" class="page-recommand">
+	<div class="wrap clearfix">
+		
+		<h1>Pourquoi recommander notre méthode minceur ?</h1>
+
+		<img src="img/img_cloud.png" alt="" id="img-clouds">
+		<img src="img/img_imac-screen.png" alt="" id="img-imac">
+
+		<ul id="why-points">
+			<li id="why-point-1"><span>Vu à la télé</span></li>
+			<li id="why-point-2"><span>Ciblage morphologique</span></li>
+			<li id="why-point-3"><span>Méthode <br>Compatible PNS</span></li>
+			<li id="why-point-4"><span>Méthode scientifique recommandée</span></li>
+			<li id="why-point-5"><span>Coaching <br>total </span></li>
+			<li id="why-point-6"><span>Efficacité prouvée</span></li>
+		</ul>
+
+	</div>
+</div><!-- end #main-bg -->
+
+
+
+<div id="main">
+	<div class="wrap">
+		
+		<div class="action-link">
+			<a href="#" id="link-inscrip"><span>Cliquez ici pour <br>vous inscrire</span></a>
+		</div>
+
+		<hr class="sep-shadow">
+
+		<div id="layout-3col" class="clearfix ft-lato">
+			
+			<div class="col3">
+				<h2 class="title-chk">Une méthode minceur efficace et très équilibrée</h2>
+				<p><b>Nous proposons une méthode minceur naturelle et très saine. </b></p>
+				<p>Son but est de permettre de retrouver son juste poids sans aucun risque pour la santé le plus rapidement possible.</p>
+				<p class="highlight">Cette méthode est proposée sur en exclusivité sur le site Chronoregime.com. </p>
+				<p>Des coachs experts en Chrononutrition accompagnent les membres en permanence.</p>
+			</div>
+			
+			<div class="col3">
+				<h2 class="title-chk">A qui recommander cette méthode ?</h2>
+				<p>Aujourd'hui, les dernière études montrent que 45% des français majeurs souhaitent perdre du poids. Cela signifie que presque 1 personne sur 2 - homme ou femme - pourrait s'inscrire sur Chronoregime.com. </p>
+				<p>En fait, vous connaissez forcément plein de gens dans votre entourage qui voudraient perdre du poids. </p>
+				<p class="highlight">Recommandez leur Chronoregime.com, ils ne seront pas déçus !</p>
+			</div>
+			
+			<div class="col3">
+				<h2 class="title-chk">Pourquoi recommander Chronoregime.com ?</h2>
+				<p>Nous ne sommes pas comme les autres sites minceur. <b>Nous ne proposons pas un régime mais une méthode minceur basée sur une alimentation très équilibrée.</b> Nous réalisons un morphobilan qui vous permet de mincir selon votre morphotype. Ensuite, nous proposons un ensemble unique sur Internet de menus et de recettes minceur personnalisés avec un coaching permanent en direct par Chat.</p>
+				<p>Chronoregime.com est une méthode minceur très efficace, très équilibrée et tout ça avec un coach personnel qui suit chaque membre en tête à tête. </p>
+				<p class="highlight">En un mot c'est aujourd'hui la meilleur méthode minceur existante.</p>
+
+			</div>
+
+		</div>
+		
+		<div id="avantages-horizontal">
+			<ul>
+				<li><span>Vous n’avez rien à vendre !</span></li>
+				<li><span>Aucun investissement à faire !</span></li>
+				<li><span>Aucune dépense à faire !</span></li>
+				<li class="last-child"><a href="#">Rejoignez notre <br>réseau d’affiliés</a></li>
+			</ul>
+		</div>
+
+	</div>
+</div><!-- end #main -->
+
+
+
+<footer id="footer-bottom">
+	<div class="wrap">
+		
+		© 2012 ChronoStar
+
+	</div>
+</footer>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+
+<script src="js/script.js"></script>
+<!--
+<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+-->
+</body>
+</html>

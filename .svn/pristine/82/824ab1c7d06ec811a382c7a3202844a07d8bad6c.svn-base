@@ -1,0 +1,202 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title></title>
+	<meta name="description" content="">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script>window.html5 || document.write('<script src="js/libs/html5.js"><\/script>')</script>
+	<![endif]-->
+</head>
+<body>
+
+
+<header id="header-top">
+	<div class="wrap clearfix">
+
+		<a href="/" id="top-logo"><img src="img/img_logo.png" alt="Chronostar"></a>
+
+		<div id="btn-fb">
+			<a href="#"><img src="img/btn-fb.png" alt="Connectez-vous avec Facebook Connect"></a>
+		</div>
+
+		<div id="login-form-top">
+			<form action="" method="">
+				<p>
+					<input type="text" name="logintop_id" id="logintop-id" value="Login / Email" class="autoEmpty">
+					<input type="password" name="logintop_pass" id="logintop-pass" value="Mot de passe" class="autoEmpty">
+					<input type="submit" name="logintop_subm" id="logintop-subm" value="OK">
+				</p>
+			</form>
+			<p>
+				<a href="#">Mot de passe oublié ?</a>
+				<label for="logintop-stayco"><input type="checkbox" name="logintop_stayco" id="logintop-stayco">Rester connecté</label>
+			</p>
+		</div><!-- end #login-form-top -->
+
+		<nav id="nav-top">
+			<ul>
+				<li><a href="accueil.html">Accueil</a></li>
+				<li><a href="how-it-works.html">Comment ça marche ?</a></li>
+				<li><a href="invite-friends.html">Pourquoi inviter vos amis sur le réseau ?</a></li>
+				<li><a href="recommend-us.html">Pourquoi recommander notre site ?</a></li>
+				<li class="highlight current"><a href="register.html">S’inscrire</a></li>
+			</ul>
+		</nav>
+
+	</div><!-- end .wrap -->
+</header>
+
+
+<div id="main-bg" class="page-register">
+	<div class="wrap clearfix">
+		
+		<h1>Inscrivez-vous !</h1>
+
+		<img src="img/img_cloud.png" alt="" id="img-clouds">
+
+
+		<div id="register-leftcol">
+
+			<div class="box-fbconnect clearfix">
+				<p>INSCRIVEZ-VOUS AVEC<br> VOTRE COMPTE FACEBOOK</p>
+				<a href="#"><img src="img/btn-fb.png" alt="Inscription avec Facebook Connect"></a>
+			</div>
+			
+			<p id="title-choise">
+				Ou<br /><span>remplissez le formulaire</span>
+				<img src="img/img_arrow.png" alt="">
+			</p>
+			
+			<div id="pub-tv">
+				<img src="img/img_tv.png" alt="">
+				<ul id="avantages">
+					<li>Rien à vendre</li>
+					<li>Aucun investissement</li>
+					<li>Aucun coût pour vous</li>
+				</ul>
+				<img src="img/img_100p-gratuit.png" alt="100% GRATUIT" id="label100p">
+			</div>
+
+		</div><!-- end #register-left -->
+
+
+		<form method="" action="" id="form-register">
+
+			<img src="img/img_illu-boygirl-inverse.png" alt="" id="illu-head">
+			<div class="formtitle">Inscription gratuite</div>
+
+			<div class="control">
+				<label for="r-codeParrainage">Code de parrainage</label><input type="text" name="r_codeParrainage" id="r-codeParrainage" value="SPRIN136">
+			</div>
+
+			<a href="#" id="more-field" class="closed"><img src="img/ico_arrow.png" alt="">Indiquez votre parrain autrement</a>
+
+			<div id="hide">
+				<div class="control">
+					<label for="r-emailParrain">Email du parrain</label><input type="email" name="r_emailParrain" id="r-emailParrain" placeholder="test@sprintic.fr">
+				</div>
+				<div class="control">
+					<label for="r-loginParrain">Nom d'utilisateur du parrain</label><input type="text" name="r_loginParrain" id="r-loginParrain">
+				</div>
+			</div>
+
+			<div class="control">
+				<label for="r-email">Adresse Email</label><input type="text" name="r_email" id="r-email">
+			</div>
+
+			<div class="control">
+				<label for="r-login">Nom d'utilisateur</label><input type="text" name="r_login" id="r-login">
+			</div>
+
+			<div class="control">
+				<label for="r-mobilephone">Numéro de téléphone mobile</label><input type="text" name="r_mobilephone" id="r-mobilephone">
+			</div>
+
+			<div class="control select">
+				<label for="r-country">Pays</label>
+				<select name="r_country" id="r-countrycountry">
+					<option value="">---</option>
+					<option value=""></option>
+				</select>
+			</div>
+
+			<div class="control">
+				<label for="r-password">Mot de passe</label><input type="password" name="r_password" id="r-password">
+			</div>
+
+			<div class="control">
+				<label for="r-passwordConfirm">Confirmation du mot de passe</label><input type="password" name="r_passwordConfirm" id="r-passwordConfirm">
+			</div>
+
+			<div id="acceptation" class="clearfix">
+				<label for="r-accept"><input type="checkbox" name="r_accept" id="r-accept"><span>J'accepte de recevoir la newsletter d'astuces et de <br> conseils du réseau Chronostar</span></label>
+			</div>
+
+			<div class="control-submit">
+				<input type="submit" value="VALIDER" id="r-submit">
+				<img src="img/img_money-small.png" alt="" width="84" height="70">
+			</div>
+
+		</form><!-- end #form-register -->
+
+
+
+	</div>
+</div><!-- end #main-bg -->
+
+
+
+<div id="main">
+	<div class="wrap">
+		
+		<div id="avantages-horizontal">
+			<ul>
+				<li><span>Vous n’avez rien à vendre !</span></li>
+				<li><span>Aucun investissement à faire !</span></li>
+				<li><span>Aucune dépense à faire !</span></li>
+				<li class="last-child"><a href="#">Rejoignez notre <br>réseau d’affiliés</a></li>
+			</ul>
+		</div>
+
+	</div>
+</div><!-- end #main -->
+
+
+
+<footer id="footer-bottom">
+	<div class="wrap">
+		
+		© 2012 ChronoStar
+
+	</div>
+</footer>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+
+<script src="js/script.js"></script>
+<!--
+<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+-->
+</body>
+</html>

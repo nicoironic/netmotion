@@ -1,0 +1,163 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title></title>
+	<meta name="description" content="">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script>window.html5 || document.write('<script src="js/libs/html5.js"><\/script>')</script>
+	<![endif]-->
+</head>
+<body>
+
+
+<header id="header-top">
+	<div class="wrap clearfix">
+
+		<a href="/" id="top-logo"><img src="img/img_logo.png" alt="Chronostar"></a>
+
+		<div id="btn-fb">
+			<a href="#"><img src="img/btn-fb.png" alt="Connectez-vous avec Facebook Connect"></a>
+		</div>
+
+		<div id="login-form-top">
+			<form action="" method="">
+				<p>
+					<input type="text" name="logintop_id" id="logintop-id" value="Login / Email" class="autoEmpty">
+					<input type="password" name="logintop_pass" id="logintop-pass" value="Mot de passe" class="autoEmpty">
+					<input type="submit" name="logintop_subm" id="logintop-subm" value="OK">
+				</p>
+			</form>
+			<p>
+				<a href="#">Mot de passe oublié ?</a>
+				<label for="logintop-stayco"><input type="checkbox" name="logintop_stayco" id="logintop-stayco">Rester connecté</label>
+			</p>
+		</div><!-- end #login-form-top -->
+
+		<nav id="nav-top">
+			<ul>
+				<li><a href="accueil.html">Accueil</a></li>
+				<li><a href="how-it-works.html">Comment ça marche ?</a></li>
+				<li class="current"><a href="invite-friends.html">Pourquoi inviter vos amis sur le réseau ?</a></li>
+				<li><a href="recommend-us.html">Pourquoi recommander notre site ?</a></li>
+				<li class="highlight"><a href="register.html">S’inscrire</a></li>
+			</ul>
+		</nav>
+
+	</div><!-- end .wrap -->
+</header>
+
+
+<div id="main-bg" class="page-invite">
+	<div class="wrap clearfix">
+		
+		<h1>Pourquoi inviter vos amis à rejoindre ChronoStar ?</h1>
+
+		<img src="img/img_cloud-small.png" alt="" id="img-clouds">
+
+		<img src="img/img_invitefriends.png" alt="">
+
+
+	</div>
+</div><!-- end #main-bg -->
+
+
+
+<div id="main">
+	<div class="wrap">
+
+		<div class="action-link">
+			<a href="#" id="link-inscrip"><span>Cliquez ici pour <br>vous inscrire</span></a>
+			<a href="#" id="link-seemore"><span>Cliquez ici pour <br>en savoir plus</span></a>
+		</div>
+
+		<hr class="sep-shadow">
+
+		<div id="layout-2col" class="clearfix ft-lato">
+			
+			<div class="col2">
+
+				<h2 class="title-chk">C’est amusant !</h2>
+				<p><span class="bigger">Gagner de l'argent, c'est encore plus amusant quand on est entre amis.</span></p>
+				<p>Ca tombe bien, tous ensemble vous gagnez plus. Rappelez-vous : vous recevez un pourcentage sur les ventes réalisées par vos amis, les amis de vos amis et même les amis dt'amis de vos amis...</p>
+				<ul class="list-type-arrow">
+					<li>Vous recevez 20 euros lorsque quelqu'un s'abonne à Chronoregime.com grâce à vous,</li>
+					<li>Vous recevez 12 euros lorsque quelqu'un s'abonne à Chronoregime.com grâce à un ami,</li>
+					<li>Vous recevez 6 euros lorsque quelqu'un s'abonne à Chronoregime.com grâce à l'ami d'un ami,</li>
+					<li>et finalement, vous recevez 2 euros lorsque quelqu'un s'abonne à Chronoregime.com grâce à l'ami d'un ami d'un ami.</li>
+				</ul>
+
+				<h2 class="title-chk">Vos gains augmentent rapidement</h2>
+				<p><span class="bigger">Vous l'avez vu dans les résultats de votre simulation, les gains sont très rapidement élevés.</span></p>
+				<p>C'est surtout grâce aux amis de vos amis. Bien sûr, le plus important c'est de recommander Chronoregime.com à votre entourage et que des gens s'y abonnent.</p>
+				<p>Avec un réseau de seulement 100 contacts sur Chronostar.net, et si ces 100 contacts ne font qu'une vente par an sur Chronoregime.com, vous pouvez déjà gagner 900 euros par mois ! C'est beaucoup d'argent et très peu d'effort.</p>
+
+			</div>
+			
+			<div class="col2">
+
+				<h2 class="title-chk">C’est facile !</h2>
+				<p><span class="bigger">Pour gagner, il vous suffit de recommander notre méthode minceur à votre entourage</span></p>
+				<p>Vous n'avez pas à vendre quoi que ce soit. Vous fonctionnez à votre rythme. Aucun investissement n'est nécessaire. Vous n'avez rien à dépenser ni maintenant, ni plus tard. Notre service est 100% gratuit.</p>
+				<p>Vous et vos amis, vous pouvez gagner de très bons revenus simplement en recommandant notre méthode minceur saine et très équilibrée pour perdre rapidement des kilos superflus.</p>
+
+				<h2 class="title-chk">Gagnez de l’argent honnêtement</h2>
+				<p>Vos amis vont vous remercier du fond du coeur dès que l'argent commencera à arriver...</p>
+				<p>Nous vous proposons plein d'idées et de stratégies pour recommander notre méthode minceur. Travailler avec vos amis vous permet réellement de gagner plus. A plusieurs on est toujours plus forts et c'est vraiment facile et amusant.</p>
+				<div id="gratuit" class="page-invite">
+					<img src="img/img_100p-gratuit.png" alt="100% GRATUIT">
+					Nous ne vous <br> demanderons jamais <br> d'argent ou de numéro <br> de carte de crédit.
+				</div>
+
+			</div>
+
+		</div>
+		
+		<div id="avantages-horizontal">
+			<ul>
+				<li><span>Vous n’avez rien à vendre !</span></li>
+				<li><span>Aucun investissement à faire !</span></li>
+				<li><span>Aucune dépense à faire !</span></li>
+				<li class="last-child"><a href="#">Rejoignez notre <br>réseau d’affiliés</a></li>
+			</ul>
+		</div>
+
+	</div>
+</div><!-- end #main -->
+
+
+
+<footer id="footer-bottom">
+	<div class="wrap">
+		© 2012 ChronoStar
+	</div>
+</footer>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+
+<script src="js/script.js"></script>
+<!--
+<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+-->
+</body>
+</html>
